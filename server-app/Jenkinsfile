@@ -45,7 +45,7 @@ currentBuild.result = "SUCCESS"
                         from: 'xxxx@yyyyy.com',
                         replyTo: 'xxxx@yyyy.com',
                         subject: 'project build successful',
-                        to: 'yyyyy@yyyy.com'*/
+                        to: 'yyyyy@yyyy.com'
 
         }
 
@@ -58,7 +58,7 @@ currentBuild.result = "SUCCESS"
             from: 'xxxx@yyyy.com',
             replyTo: 'yyyy@yyyy.com',
             subject: 'project build failed',
-            to: 'zzzz@yyyyy.com'*/
+            to: 'zzzz@yyyyy.com'
 
         throw err
     }
